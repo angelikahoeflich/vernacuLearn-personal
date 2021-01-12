@@ -8,22 +8,32 @@ const HomePage = () => {
 
       <header>
         <img src={logo} className="logo" />
-        <span>asdf</span>
+        <nav className='home-header'>
+          <button>About VernacuLearn</button>
+        </nav>
       </header>
 
-      <h1>Learn essential lingo fast!</h1>
 
       <main>
         <section className="hero-container">
-          <section className="sign-in">
-            <h1>Already a member? Sign In!</h1>
-          
-          </section>
           <section className="hero-image">
           </section>
+          <section className="sign-in">
+          <h1 className="homepage-header">Learn Essential Lingo Fast!</h1>
+
+            <button className="home-btn green-btn">Get started</button>
+            <button className="home-btn blue-btn">I already have an account</button>
+
+          
+          </section>
+        </section>
+
+        <section className="three-up-container">
+          
         </section>
       </main>
 
+    <footer className="footer">&copy; 2021. vernacuLearn. all rights reserved. privacy policy</footer>
     </div>
   )
 }
