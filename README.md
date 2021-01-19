@@ -71,17 +71,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 # Front Page TODOs
-Flaticons
-  - light bulb
-  - book
-  - brain
-  - pencil
-  - computer
-  - notepad
-  - index card
 Behavior for buttons
   - need landing page for login
   - need landing page for sign up
 Final button style
+icon text content
 Footer content
 Live links
